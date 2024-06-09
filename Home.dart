@@ -45,7 +45,7 @@ class Home extends StatelessWidget {
                 SizedBox(height:50,),
                 TextButton(
                   onPressed: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => Scan()));
+                    Navigator.push(context, MaterialPageRoute(builder: (context) =>MobileAnalysis()));
                   },
                   child: HomeCard(label: "Scan System ",image: 'assets/scan.png',),
                 ),
